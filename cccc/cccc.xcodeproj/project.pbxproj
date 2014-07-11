@@ -12,8 +12,6 @@
 		1BA4BC2419703CE600F8AF35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA4BC2319703CE600F8AF35 /* UIKit.framework */; };
 		1BA4BC2A19703CE600F8AF35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA4BC2819703CE600F8AF35 /* InfoPlist.strings */; };
 		1BA4BC2C19703CE600F8AF35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA4BC2B19703CE600F8AF35 /* main.m */; };
-		1BA4BC3019703CE600F8AF35 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA4BC2F19703CE600F8AF35 /* JDAppDelegate.m */; };
-		1BA4BC3319703CE600F8AF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA4BC3119703CE600F8AF35 /* Main.storyboard */; };
 		1BA4BC3619703CE600F8AF35 /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA4BC3519703CE600F8AF35 /* JDViewController.m */; };
 		1BA4BC3819703CE600F8AF35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA4BC3719703CE600F8AF35 /* Images.xcassets */; };
 		1BA4BC3F19703CE600F8AF35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA4BC3E19703CE600F8AF35 /* XCTest.framework */; };
@@ -42,9 +40,6 @@
 		1BA4BC2919703CE600F8AF35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BA4BC2B19703CE600F8AF35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BA4BC2D19703CE600F8AF35 /* cccc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cccc-Prefix.pch"; sourceTree = "<group>"; };
-		1BA4BC2E19703CE600F8AF35 /* JDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
-		1BA4BC2F19703CE600F8AF35 /* JDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
-		1BA4BC3219703CE600F8AF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BA4BC3419703CE600F8AF35 /* JDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
 		1BA4BC3519703CE600F8AF35 /* JDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
 		1BA4BC3719703CE600F8AF35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -112,9 +107,6 @@
 		1BA4BC2519703CE600F8AF35 /* cccc */ = {
 			isa = PBXGroup;
 			children = (
-				1BA4BC2E19703CE600F8AF35 /* JDAppDelegate.h */,
-				1BA4BC2F19703CE600F8AF35 /* JDAppDelegate.m */,
-				1BA4BC3119703CE600F8AF35 /* Main.storyboard */,
 				1BA4BC3419703CE600F8AF35 /* JDViewController.h */,
 				1BA4BC3519703CE600F8AF35 /* JDViewController.m */,
 				1BA4BC3719703CE600F8AF35 /* Images.xcassets */,
@@ -231,7 +223,6 @@
 			files = (
 				1BA4BC3819703CE600F8AF35 /* Images.xcassets in Resources */,
 				1BA4BC2A19703CE600F8AF35 /* InfoPlist.strings in Resources */,
-				1BA4BC3319703CE600F8AF35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA4BC3019703CE600F8AF35 /* JDAppDelegate.m in Sources */,
 				1BA4BC3619703CE600F8AF35 /* JDViewController.m in Sources */,
 				1BA4BC2C19703CE600F8AF35 /* main.m in Sources */,
 			);
@@ -281,14 +271,6 @@
 				1BA4BC2919703CE600F8AF35 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1BA4BC3119703CE600F8AF35 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BA4BC3219703CE600F8AF35 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		1BA4BC4719703CE600F8AF35 /* InfoPlist.strings */ = {
@@ -457,6 +439,7 @@
 				1BA4BC5019703CE600F8AF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BA4BC5119703CE600F8AF35 /* Build configuration list for PBXNativeTarget "ccccTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +448,7 @@
 				1BA4BC5319703CE600F8AF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
